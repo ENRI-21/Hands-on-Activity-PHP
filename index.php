@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <?php
@@ -37,37 +38,35 @@
         <h2>Time done: 4:40pm</h2>
 
         <h1>
-            Firstname: <?php echo $firstName . ' ' . $lastName  ?>
+            Firstname: <?=  $firstName . ' ' . $lastName  ?>
         </h1>
-        <p>Age: <span><?php echo $age; ?></span></p>
-        <p>Address: <span><?php echo $address; ?></span></p>
-        <p>Contact: <span><?php echo $contact; ?></span></p>
+        <p>Age: <span><?=  $age; ?></span></p>
+        <p>Address: <span><?=  $address; ?></span></p>
+        <p>Contact: <span><?= $contact; ?></span></p>
        </div> 
 
        <h1>
-            Firstname: <?php echo $firstName2 . ' ' . $lastName2  ?>
+            Firstname: <?= $firstName2 . ' ' . $lastName2  ?>
         </h1>
-        <p>Age: <span><?php echo $age2; ?></span></p>
-        <p>Address: <span><?php echo $address2; ?></span></p>
-        <p>Contact: <span><?php echo $contact2; ?></span></p>
+        <p>Age: <span><?= $age2; ?></span></p>
+        <p>Address: <span><?= $address2; ?></span></p>
+        <p>Contact: <span><?= $contact2; ?></span></p>
        </div> 
 
        <h1>
-            Firstname: <?php echo $firstName1 . ' ' . $lastName1  ?>
+            Firstname: <?= $firstName1 . ' ' . $lastName1  ?>
         </h1>
-        <p>Age: <span><?php echo $age1; ?></span></p>
-        <p>Address: <span><?php echo $address1; ?></span></p>
-        <p>Contact: <span><?php echo $contact1; ?></span></p>
+        <p>Age: <span><?= $age1; ?></span></p>
+        <p>Address: <span><?= $address1; ?></span></p>
+        <p>Contact: <span><?= $contact1; ?></span></p>
 
         <h1>
-            Firstname: <?php echo $firstName3 . ' ' . $lastName3  ?>
+            Firstname: <?= $firstName3 . ' ' . $lastName3  ?>
         </h1>
-        <p>Age: <span><?php echo $age3; ?></span></p>
-        <p>Address: <span><?php echo $address3; ?></span></p>
-        <p>Contact: <span><?php echo $contact3; ?></span></p>
+        <p>Age: <span><?= $age3; ?></span></p>
+        <p>Address: <span><?= $address3; ?></span></p>
+        <p>Contact: <span><?= $contact3; ?></span></p>
        </div> 
-
-
        </div> 
     </div>
 </body>
